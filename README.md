@@ -10,7 +10,7 @@ Below is a diagram on how they are internally linked.
 Due to hardware and time contraints, we could only work on the software features. 
 
 Features are ....
-
+Missing features: 
 We hope to ....
 
 # Demo 
