@@ -21,8 +21,9 @@ label = [
     "surprised"
 ]
 
+#0 for default , 1 for second cam
 cap = cv2.VideoCapture(0)
-
+#can open
 if (cap.isOpened()):
     print("Camera OK")
 else:
@@ -48,7 +49,8 @@ while True:
         cv2.putText(original, predict, (10, 30),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
         cv2.imshow("Classification", original)
-
+        
+        # Press 'q' to quit application.
         if (cv2.waitKey(1) & 0xFF == ord('q')):
             break
     except KeyboardInterrupt:
