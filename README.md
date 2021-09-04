@@ -88,5 +88,5 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 <br/>
 <img src="assets/angry.png" alt="Angry" width="500" height="400">
 <br/>
-<img src="assets/dashboard.png" alt="Dashboard">
+<img src="Mobot App.png" alt="Dashboard">
  
