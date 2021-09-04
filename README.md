@@ -26,13 +26,13 @@ To help to raise awareness in the community and to aid in early detection of dep
 - Color stripes dashboard (shareable) promotes mental health in the community
 - The MoBot also acts as a companion, which comforts potentiallly depressed users by reducing their loneliness
 
-# Original Concept
+## Original Concept
 
 The MoBot is a companion bot that has 3 main features – Mood Detector, Reaction, Website Dashboard with shareable color stripes. The MoBot reacts differently based on the mood of the owner.
 
 Refer to the PowerPoint attached to see how they are linked.
 
-# Actual Prototype
+## Actual Prototype
 
 Due to hardware and time contraints, we could only work on the software features.
 
