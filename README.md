@@ -1,3 +1,9 @@
+# Problem Statement
+
+To help to raise awareness in the community and to aid in early detection of depression for individual. 
+
+
+
 # Original Concept
 
 The MoBot is a companion bot that has 3 main features – Mood Detector, Reaction, Website Dashboard with shareable color stripes . The MoBot reacts differently based on the mood of the owner. 
@@ -31,6 +37,15 @@ ML libraries to install : Pillow, Transformers, Pytorch , OpenCV, numpy
 
 # Notes
 Each mobot will have a web server and hance every owner will have their own unique website dashboard with their own color stripes representing them. The color stripes are shareable!!!
+
+AI Mood recogniton boost self awareness of one's emotions
+
+Color stripes dashboard (shareable) promotes mental health in the community
+
+The MOBOT also acts as a companion. (Would not feel alone)
+
+
+
 **need public repo when everything is done**   -- remove when done
 
 
