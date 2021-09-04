@@ -24,7 +24,7 @@ To help to raise awareness in the community and to aid in early detection of dep
 
 - AI Mood recogniton boost self awareness of one's emotions
 - Color stripes dashboard (shareable) promotes mental health in the community
-- The MoBot also acts as a companion, which comforts potentiallly depressed users by reducing their loneliness
+- The MoBot also acts as a companion, which comforts potentially depressed users by reducing their loneliness
 
 ## Original Concept
 
