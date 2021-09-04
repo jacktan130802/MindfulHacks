@@ -1,4 +1,4 @@
-# Instructions to set up
+# Instructions to set up and run
 ## Conda
 - Install Anaconda from anaconda.org
 - Open anaconda prompt
@@ -19,7 +19,7 @@ python C:\\PATH_TO_THIS_FOLDER\detect.py
 
 # Problem Statement
 
-To help to raise awareness in the community and to aid in early detection of depression for individual.
+To help to raise awareness in the community and to aid in early detection of depression for individuals.
 
 
 - AI Mood recogniton boost self awareness of one's emotions
@@ -49,7 +49,9 @@ We hope that in future, with enough time and resources, we will be able to come 
 
 # Demo
 - ```detect.py``` is used for actual opencv detection (using pc camera - **set up required**) 
-- we incuded a google collab file for your guys to also try out! (**no set up required!**)
+    - Constantly computes your emotion over 10 second periods
+- We included a [Google Colab](https://colab.research.google.com/drive/1lxiOH5_TBMBtd0mHY0GGWz2ry9msAhVy?usp=sharing) for you guys to also try out! (**no set up required!**)
+    - Gets your emotion from 1 photograph
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
