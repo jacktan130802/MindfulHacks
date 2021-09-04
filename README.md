@@ -24,7 +24,7 @@ Features are
 
 Missing features:
 - A companion robot
-- Due to time constraints, the share button is static (For color stripe dashboard)
+- Static share button (For color stripe dashboard)
 
 We hope that in future, with enough time and resources, we will be able to come out with the complete physical prototype.
 
