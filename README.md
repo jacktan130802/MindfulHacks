@@ -19,8 +19,7 @@ python C:\\PATH_TO_THIS_FOLDER\detect.py
 
 # Problem Statement
 
-To help to raise awareness in the community and to aid in early detection of depression for individuals.
-
+To ease the sharing of emotions between friends and reduce the stigma associated with mental illness. 
 
 - AI Mood recogniton boost self awareness of one's emotions
 - Color stripes dashboard (shareable) promotes mental health in the community
