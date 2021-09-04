@@ -17,8 +17,7 @@ body {
 	display: flex;
 }
 
-#buttons {
-	display: flex;
+#buttons, #weekly {
 	margin-left: 15px;
 }
 

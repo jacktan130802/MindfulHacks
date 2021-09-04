@@ -3,7 +3,7 @@ import colors from './moods.json';
 
 import { Doughnut } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
-import { ShareOutlined } from '@material-ui/icons';
+import { RefreshOutlined, ShareOutlined } from '@material-ui/icons';
 
 import Firebase from 'firebase';
 
@@ -55,6 +55,8 @@ class Pie extends React.Component {
 				labels: Object.keys(colors),
 			}
 		});
+
+		setTimeout(this.setConfig.bind(this), 15000);
 	}
 
 	componentDidMount() {

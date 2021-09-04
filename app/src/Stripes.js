@@ -31,6 +31,7 @@ class Stripes extends React.Component {
 
 	componentDidUpdate() {
 		this.fetchData();
+		localStorage.setItem("data", JSON.stringify(this.state.data));
 	}
 
 	render() {

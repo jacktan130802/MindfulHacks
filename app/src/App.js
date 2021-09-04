@@ -5,6 +5,7 @@ import Stripes from './Stripes';
 import Firebase from 'firebase';
 import 'firebase/database';
 import config from "./config";
+import WeekStripes from './WeekStripes';
 
 class App extends React.Component {
 
@@ -38,7 +39,7 @@ class App extends React.Component {
 				<div id="buttons">
 					<button type="button" class="btn btn-primary" onClick={() => this.resetStripes()}>Reset</button>
 				</div>
-
+				<WeekStripes></WeekStripes>
 			</div>
 		);
 	}
