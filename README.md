@@ -1,3 +1,22 @@
+# Instructions to set up
+## Conda
+- Install Anaconda from anaconda.org
+- Open anaconda prompt
+- run these commands and press 'y' when prompted
+```
+conda install -c pytorch pytorch
+conda install -c huggingface transformers
+python C:\\PATH_TO_THIS_FOLDER\detect.py
+```
+## pip
+- Install Python 3.8
+- Run these commands in command prompt
+```
+pip install torch
+pip install transformers
+python C:\\PATH_TO_THIS_FOLDER\detect.py
+```
+
 # Problem Statement
 
 To help to raise awareness in the community and to aid in early detection of depression for individual.
