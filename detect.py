@@ -6,12 +6,12 @@ from sys import exit
 from time import time
 import requests
 
-URL = ''
+URL = 'https://mobot-app-39805-default-rtdb.asia-southeast1.firebasedatabase.app/moods.json'
 REQUESTS_ENABLE = False
 
 
 def post_to_url(url: str, data):
-    r = requests.post(URL, avg_mode_label)
+    r = requests.post(URL, {"mood": avg_mode_label})
     return r.status_code
 
 
