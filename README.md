@@ -77,17 +77,13 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 
 2) Dashboard auto refreshes every 30s
 
-
-**need public repo when everything is done**   -- remove when done
-
-
-
 # Demonstration Images
-<img src="assets/happy.png" alt="Happy" width="500" height="400"> <img src="assets/sad.png" alt="Sad"  width="500" height="400">
+<img srcset="assets/happy.png 1.25x" alt="Happy">
+<img srcset="assets/sad.png 1.25x" alt="Sad">
 <br/>
 <br/>
-<img src="assets/angry.png" alt="Angry" width="500" height="400">
+<img srcset="assets/angry.png 1.25x" alt="Angry">
 <br/>
 <br/>
-<img src="Mobot App.png" alt="Dashboard">
+<img srcset="assets/app.png 2.5x" alt="Dashboard">
  
