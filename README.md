@@ -76,6 +76,7 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 1) Each MoBot will have their own unique website dashboard with their own color stripes representing them. The color stripes are **shareable**!
 
 2) Dashboard auto refreshes every 30s
+3) https://devpost.com/software/mobot-9ehtf1
 
 # Demonstration Images
 <img src="assets/happy.png" alt="Happy" width=45% height=45%> <img src="assets/sad.png" alt="Sad" width=45% height=45%>
