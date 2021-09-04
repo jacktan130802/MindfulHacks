@@ -83,7 +83,7 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 
 
 # Images
-<img src="assets/happy.png" alt="Happy"> <img src="assets/sad.png" alt="Sad">
+<img src="assets/happy.png" alt="Happy" width="500"> <img src="assets/sad.png" alt="Sad"  width="500">
 <br/>
 
 <br/>
