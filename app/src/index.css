@@ -13,6 +13,10 @@ body {
 	background-color: #ada6c2;
 }
 
+.share:hover {
+	color: darkgray;
+}
+
 #dashboard {
 	display: flex;
 }
@@ -28,6 +32,12 @@ body {
 	border: 3px solid black;
 }
 
+.week-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .stripe-container {
 	display: grid;
 	grid-template-rows: 500px;
@@ -37,4 +47,8 @@ body {
 
 .stripe {
 	padding: 0px;
+}
+
+.week {
+	display: grid;
 }

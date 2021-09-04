@@ -45,7 +45,7 @@ class Stripes extends React.Component {
 						})
 					}
 				</MDBContainer>
-				<ShareOutlined style={{ width: 40, height: 40, marginTop: 70 }}></ShareOutlined>
+				<ShareOutlined className="share" style={{ width: 40, height: 40, marginTop: 70}}></ShareOutlined>
 			</div>
 		);
 	}

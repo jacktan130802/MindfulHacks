@@ -56,7 +56,7 @@ class Pie extends React.Component {
 			}
 		});
 
-		setTimeout(this.setConfig.bind(this), 15000);
+		setTimeout(this.setConfig.bind(this), 30000);
 	}
 
 	componentDidMount() {
@@ -72,7 +72,7 @@ class Pie extends React.Component {
 				<MDBContainer>
 					<Doughnut data={this.state.config} options={{ responsive: true }} />
 				</MDBContainer>
-				<ShareOutlined style={{ width: 40, height: 40, marginTop: 70 }}></ShareOutlined>
+				<ShareOutlined className="share" style={{ width: 40, height: 40, marginTop: 70 }}></ShareOutlined>
 			</div>
 		);
 	}
