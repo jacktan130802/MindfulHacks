@@ -68,7 +68,9 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 
 # Notes
 
-Each MoBot will have their own unique website dashboard with their own color stripes representing them. The color stripes are **shareable**!
+1) Each MoBot will have their own unique website dashboard with their own color stripes representing them. The color stripes are **shareable**!
+
+2) Dashboard auto refreshes every 30s
 
 
 **need public repo when everything is done**   -- remove when done
