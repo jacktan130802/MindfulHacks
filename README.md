@@ -28,7 +28,7 @@ To help to raise awareness in the community and to aid in early detection of dep
 
 ## Original Concept
 
-The MoBot is a companion bot that has 3 main features – Mood Detector, Reaction, Website Dashboard with shareable color stripes. The MoBot reacts differently based on the mood of the owner.
+The MoBot is a companion bot that has 4 main features – Mood Detector, Reaction, Colour Stripes and Website Dashboard. The MoBot reacts differently based on the mood of the owner.
 
 ### Mood Detector
 ### Reaction
