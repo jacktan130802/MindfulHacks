@@ -23,11 +23,15 @@ class Pie extends React.Component {
 		};
 	}
 
-	async setConfig() {
+	async fetchData() {
 		var ref = Firebase.database().ref("/");
 		await ref.get().then(snap => {
 			this.setState({ data: snap.val()["moods"] });
 		});
+	}
+
+	async setConfig() {
+		await this.fetchData();
 
 		for (var d in this.state.data)
 			this.moods.push(this.state.data[d].mood);

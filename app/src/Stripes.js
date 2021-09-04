@@ -29,6 +29,10 @@ class Stripes extends React.Component {
 		});
 	}
 
+	componentDidUpdate() {
+		this.fetchData();
+	}
+
 	render() {
 		return (
 			<div id="line">
