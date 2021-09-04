@@ -42,7 +42,7 @@ AI Mood recogniton boost self awareness of one's emotions
 
 Color stripes dashboard (shareable) promotes mental health in the community
 
-The MOBOT also acts as a companion. (Would not feel alone)
+The MOBOT also acts as a companion. (Would not feel alone).Comforts potentiallly depressed users
 
 
 
