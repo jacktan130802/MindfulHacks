@@ -7,11 +7,14 @@ from time import time
 import requests
 
 URL = 'https://mobot-app-39805-default-rtdb.asia-southeast1.firebasedatabase.app/moods.json'
-REQUESTS_ENABLE = False
+REQUESTS_ENABLE = True
+# interval in seconds
+INTERVAL = 30
 
 
 def post_to_url(url: str, data):
-    r = requests.post(URL, {"mood": avg_mode_label})
+
+    r = requests.post(URL, json={"mood": avg_mode_label})
     return r.status_code
 
 
@@ -67,7 +70,7 @@ while True:
         avg_mode_label = label[np.argmax(running_sum)]
 
         # number of seconds per sum and send
-        if time() - last_sum_time >= 10:
+        if time() - last_sum_time >= INTERVAL:
             # TODO test send to server
             if REQUESTS_ENABLE:
                 status = post_to_url(URL, avg_mode_label)
