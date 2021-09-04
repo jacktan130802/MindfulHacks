@@ -13,7 +13,6 @@ INTERVAL = 10
 
 
 def post_to_url(url: str, data):
-
     r = requests.post(URL, json={"mood": avg_mode_label})
     return r.status_code
 
@@ -56,8 +55,6 @@ while True:
         inputs = feature_extractor(images=image, return_tensors='pt')
         prediction = model(**inputs)
         output = prediction.logits.detach().numpy()[0]
-        # print(*label, sep='\t\t')
-        # print(*output, sep='\t')
         predict = f'Feeling {label[(prediction[0]).argmax()]}'
 
         cv2.putText(original, predict, (10, 30),
@@ -71,7 +68,6 @@ while True:
 
         # number of seconds per sum and send
         if time() - last_sum_time >= INTERVAL:
-            # TODO test send to server
             if REQUESTS_ENABLE:
                 status = post_to_url(URL, avg_mode_label)
                 if status >= 400:
