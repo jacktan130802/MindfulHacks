@@ -30,6 +30,11 @@ To help to raise awareness in the community and to aid in early detection of dep
 
 The MoBot is a companion bot that has 3 main features – Mood Detector, Reaction, Website Dashboard with shareable color stripes. The MoBot reacts differently based on the mood of the owner.
 
+### Mood Detector
+### Reaction
+### Colour Stripes
+### Website Dashboard
+
 Refer to the PowerPoint attached to see how they are linked.
 
 ## Actual Prototype
