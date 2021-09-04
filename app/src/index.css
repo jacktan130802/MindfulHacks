@@ -17,6 +17,11 @@ body {
 	display: flex;
 }
 
+#buttons {
+	display: flex;
+	margin-left: 15px;
+}
+
 #pie, #line {
 	flex: 1;
 	padding: 100px;

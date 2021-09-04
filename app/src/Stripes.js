@@ -24,14 +24,15 @@ class Stripes extends React.Component {
 	async fetchData() {
 		var ref = Firebase.database().ref("/");
 		await ref.get().then(snap => {
-			this.setState({ data: Object.values(snap.val()["moods"]) });
+			var m = snap.val()["moods"];
+			this.setState({ data: m !== undefined && m !== null ? Object.values(snap.val()["moods"]) : [] });
 		});
 	}
 
 	render() {
 		return (
 			<div id="line">
-				<h2>My Colors</h2>
+				<h2>My Stripes</h2>
 				<MDBContainer className="stripe-container">
 					{
 						Object.values(this.state.data).map(i => {
