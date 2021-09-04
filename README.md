@@ -3,6 +3,9 @@
 To help to raise awareness in the community and to aid in early detection of depression for individual. 
 
 
+- AI Mood recogniton boost self awareness of one's emotions
+- Color stripes dashboard (shareable) promotes mental health in the community
+- The MOBOT also acts as a companion. (Would not feel alone).Comforts potentiallly depressed users
 
 # Original Concept
 
@@ -16,7 +19,7 @@ Refer to the Powerpoint attached to see how they are linked.
 Due to hardware and time contraints, we could only work on the software features. 
 
 Features are 
-- AI mood recognition [Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised.]
+- AI mood recognition [**Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised.**]
 - Color stripes Dashboard
 
 
@@ -38,11 +41,6 @@ ML libraries to install : Pillow, Transformers, Pytorch , OpenCV, numpy
 # Notes
 Each mobot will have a web server and hance every owner will have their own unique website dashboard with their own color stripes representing them. The color stripes are shareable!!!
 
-AI Mood recogniton boost self awareness of one's emotions
-
-Color stripes dashboard (shareable) promotes mental health in the community
-
-The MOBOT also acts as a companion. (Would not feel alone).Comforts potentiallly depressed users
 
 
 
