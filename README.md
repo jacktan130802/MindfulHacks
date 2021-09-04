@@ -24,6 +24,7 @@ Features are
 
 Missing features:
 - A companion robot
+- Due to time constraints, the share button is static (For color stripe dashboard)
 
 We hope that in future, with enough time and resources, we will be able to come out with the complete physical prototype.
 
@@ -32,6 +33,8 @@ We hope that in future, with enough time and resources, we will be able to come 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # Code Deployment
+The following is our dashboard url. It is responsive based on mood detected from AI. The files generated are supposed to be shareable.
+https://mobot-app-39805.web.app/
 
 # Dependencies
 
