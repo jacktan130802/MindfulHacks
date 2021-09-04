@@ -1,8 +1,8 @@
 # Instructions to set up and run
 ## Conda
 - Install Anaconda from anaconda.org
-- Open anaconda prompt
-- run these commands and press 'y' when prompted
+- Open Anaconda Prompt
+- Run these commands and press 'y' when prompted
 ```
 conda install -c pytorch pytorch
 conda install -c huggingface transformers
@@ -10,7 +10,7 @@ python C:\\PATH_TO_THIS_FOLDER\detect.py
 ```
 ## pip
 - Install Python 3.8
-- Run these commands in command prompt
+- Run these commands in Command Prompt
 ```
 pip install torch
 pip install transformers
@@ -38,7 +38,9 @@ Due to hardware and time contraints, we could only work on the software features
 
 Features are
 - AI mood recognition [**Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised.**]
+    - Using a model based on Vision Transformer (ViT)
 - Color stripes Dashboard
+    - Using ReactJS
 
 
 Missing features:
@@ -53,19 +55,14 @@ We hope that in future, with enough time and resources, we will be able to come 
 - We included a [Google Colab](https://colab.research.google.com/drive/1lxiOH5_TBMBtd0mHY0GGWz2ry9msAhVy?usp=sharing) for you guys to also try out! (**no set up required!**)
     - Gets your emotion from 1 photograph
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-10s capture of the mood in the Mood Detector
-
 # Code Deployment
-The following is our dashboard url. It is responsive based on mood detected from AI. 
+The following is our dashboard URL. It responds based on mood detected from AI.
 
 https://mobot-app-39805.web.app/
 
 # Dependencies
 
-ML libraries to install : Pillow, Transformers, PyTorch , OpenCV, numpy
+ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 
 
 
