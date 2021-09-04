@@ -74,3 +74,15 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 
 
 **need public repo when everything is done**   -- remove when done
+
+
+
+# Images
+<img src="assets/happy.png" alt="Happy">
+<br/>
+<img src="assets/sad.png" alt="Sad">
+<br/>
+<img src="assets/angry.png" alt="Angry">
+<br/>
+<img src="assets/dashboard.png" alt="Dashboard">
+ 
