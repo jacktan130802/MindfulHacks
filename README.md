@@ -48,6 +48,9 @@ Missing features:
 We hope that in future, with enough time and resources, we will be able to come out with the complete physical prototype.
 
 # Demo
+- ```detect.py``` is used for actual opencv detection (using pc camera - **set up required**) 
+- we incuded a google collab file for your guys to also try out! (**no set up required!**)
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -67,8 +70,5 @@ ML libraries to install : Pillow, Transformers, PyTorch , OpenCV, numpy
 Each MoBot will have their own unique website dashboard with their own color stripes representing them. The color stripes are **shareable**!
 
 10s capture of the mood in the Mood Detector
-
-- ```detect.py``` is used for actual opencv detection (using pc camera - **set up required **) 
-- we incuded a google collab file for your guys to also try out! (**no set up required!**)
 
 **need public repo when everything is done**   -- remove when done
