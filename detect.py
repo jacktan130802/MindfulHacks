@@ -9,7 +9,7 @@ import requests
 URL = 'https://mobot-app-39805-default-rtdb.asia-southeast1.firebasedatabase.app/moods.json'
 REQUESTS_ENABLE = True
 # interval in seconds
-INTERVAL = 30
+INTERVAL = 10
 
 
 def post_to_url(url: str, data):
@@ -83,7 +83,8 @@ while True:
             for value in running_sum:
                 print(f'{value:0.3f}', end='\t\t')
             print()
-            running_sum = np.zeros((7, ), np.float32)
+            def zero_out(x): return 0
+            running_sum = zero_out(running_sum)
             last_sum_time = time()
 
         # Press 'q' to quit application.
