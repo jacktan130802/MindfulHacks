@@ -77,6 +77,8 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 2) Dashboard auto refreshes every 30s
 3) https://devpost.com/software/mobot-9ehtf1
 
+
+<!--
 # Demonstration Images
 <img src="assets/happy.png" alt="Happy" width=45% height=45%> <img src="assets/sad.png" alt="Sad" width=45% height=45%>
 <br/>
@@ -85,4 +87,6 @@ ML libraries to install : Pillow, Transformers, PyTorch, OpenCV, NumPy
 <br/>
 <br/>
 <img src="assets/app.png" alt="Dashboard">
+
+-->
  
